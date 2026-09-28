@@ -20,7 +20,7 @@ todo-app/
 └── README.md
 ```
 
-### Requirements
+## Requirements
 
 - Python 3.9+
 - Node.js 18+ (includes npm)
