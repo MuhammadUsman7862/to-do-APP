@@ -9,7 +9,7 @@ todo-app/
 ├── backend/
 │   ├── main.py
 │   └── requirements.txt
-├── frontend/
+├── frontend//
 │   ├── index.html
 │   ├── package.json
 │   ├── vite.config.js
