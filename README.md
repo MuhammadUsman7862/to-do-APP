@@ -1,4 +1,4 @@
-# To-Do App (React + FastAPI)
+## To-Do App (React + FastAPI)
 
 A simple to-do list app. The frontend is React (built with Vite), and the backend is FastAPI. Tasks are stored in memory on the backend, so they reset whenever you restart the backend server.
 
@@ -25,7 +25,7 @@ todo-app/
 - Python 3.9+
 - Node.js 18+ (includes npm)
 
-### 1. Run the backend (FastAPI)
+## 1. Run the backend (FastAPI)
 
 Open a terminal in VS Code, then:
 
@@ -48,7 +48,7 @@ uvicorn main:app --reload
 
 The API will run at **http://127.0.0.1:8000**. You can check it works by opening that link, or the auto-generated docs at **http://127.0.0.1:8000/docs**.
 
-### 2. Run the frontend (React)
+## 2. Run the frontend (React)
 
 Open a **second** terminal (keep the backend running in the first one):
 
@@ -60,7 +60,7 @@ npm run dev
 
 Vite will print a local URL, usually **http://localhost:5173**. Open that in your browser.
 
-### Using the app
+## Using the app
 
 - Type a task and click **Add** to create it.
 - Click a task's text to mark it complete/incomplete (it gets a strikethrough).
