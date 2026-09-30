@@ -2,7 +2,7 @@
 
 A simple to-do list app. The frontend is React (built with Vite), and the backend is FastAPI. Tasks are stored in memory on the backend, so they reset whenever you restart the backend server.
 
-## Project structure
+### Project structure
 
 ```
 todo-app/
@@ -69,4 +69,4 @@ Vite will print a local URL, usually **http://localhost:5173**. Open that in you
 ### Notes
 
 - The frontend expects the backend at `http://127.0.0.1:8000`. If you change the backend port, update `API_URL` in `frontend/src/App.jsx`.
-- Data is stored in memory only — restarting the backend clears all tasks. If you want tasks to persist, the next step would be swapping the in-memory list in `backend/main.py` for a real database (e.g. SQLite).
+- Data is stored in memory only — restarting the backend clears all tasks. If you want tasks to persist, the next step would be swapping the in-memory list in `backend/main.py` for a real database (e.g. SQLite, SQL).
