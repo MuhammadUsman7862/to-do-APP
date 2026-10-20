@@ -29,7 +29,7 @@ todo-app/
 
 Open a terminal in VS Code, then:
 
-```bash
+``bash
 cd todo-app/backend
 python -m venv venv
 ```
