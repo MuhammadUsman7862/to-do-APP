@@ -44,7 +44,7 @@ Install dependencies and start the server:
 ```bash
 pip install -r requirements.txt
 uvicorn main:app --reload
-```
+``
 
 The API will run at **http://127.0.0.1:8000**. You can check it works by opening that link, or the auto-generated docs at **http://127.0.0.1:8000/docs**.
 
