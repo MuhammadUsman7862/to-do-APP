@@ -4,7 +4,7 @@ A simple to-do list app. The frontend is React (built with Vite), and the backen
 
 ## Project structure
 
-```
+``
 todo-app/
 ├── backend/
 │   ├── main.py
